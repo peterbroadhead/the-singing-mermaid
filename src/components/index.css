@@ -1,0 +1,83 @@
+html{
+    font-size: 30px;
+}
+
+@font-face{
+    font-family:'Monksie20';
+    src:url("Monksie20-Regular.otf") format("opentype")
+}
+
+body{    
+    font-family: Monksie20;
+    margin: 0px;
+    background: rgb(2, 103, 175);
+    color: #b6eefb;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-shadow: 0 0 10px #004f87;
+    text-align: center;
+    background-image: url("../images/ocean-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+a{
+    color: #ffd902;
+    text-decoration: none;
+}
+
+.fa-star{
+    color: #ffd902;
+}
+
+main{
+    width: 1200px;
+}
+
+h1 img{
+    width: 1200px;
+}
+
+.big-quote{
+    font-size: 50px;
+}
+
+.show-info{
+    background: #ffffffe0;
+    color: black;
+    text-shadow: 0 0 black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: initial;
+    font-family: 'Monksie20';
+    box-shadow: 0 0 30px #00204c;
+    margin: 100px;
+}
+
+.show-info a{
+    background: #e3719e;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 100px;}
+
+main li{
+    list-style: none;
+    padding-top: 30px;
+}
+
+main li a{
+    display: block;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+span.four .fa-star:nth-child(5){
+    display: none;
+}
+
+span.none .fa-star{
+    display: none;
+}
