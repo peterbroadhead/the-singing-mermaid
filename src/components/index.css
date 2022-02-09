@@ -37,6 +37,11 @@ a{
 main{
     width: 1200px;
 }
+h1{
+    color: transparent;
+    text-shadow: none;
+    font-size: 0;
+}
 
 h1 img{
     width: 1200px;

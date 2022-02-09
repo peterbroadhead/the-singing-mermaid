@@ -52,8 +52,9 @@ const reviews = [
 const IndexPage = () => {
   return (    
     <main>
-      <Helmet title="The Singing Mermaid - A Watershed Production" defer={false} />            
+      <Helmet title="The Singing Mermaid - A Watershed Production" defer={false} description="A play for children based on the orginal book The Singing Mermaid written by Julia Donaldson and illustrated by Lydia Monks."/>            
       <h1>
+        <span>The Singing Mermaid - A Watershed Production</span>
         <img src={Mermaid} alt='The Singing Mermaid'></img>
       </h1>
       <p class={"big-quote"}>
