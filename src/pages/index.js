@@ -4,8 +4,7 @@ import "../components/index.css"
 import { Helmet } from 'react-helmet'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-
-
+import { Gallery } from "gatsby-theme-gallery"
 
 const reviews = [
   {
@@ -53,7 +52,7 @@ const reviews = [
 const IndexPage = () => {
   return (    
     <main>
-      <Helmet title="The Singing Mermaid" defer={false} />            
+      <Helmet title="The Singing Mermaid - A Watershed Production" defer={false} />            
       <h1>
         <img src={Mermaid} alt='The Singing Mermaid'></img>
       </h1>
@@ -69,6 +68,9 @@ const IndexPage = () => {
       <p>
         One day the singing mermaid is tempted away from all of her sea-creature friends to join a travelling circus. The audiences love to hear her sing but the poor mermaid was tricked! Instead of the swimming pool she was promised, she is kept in a small fish tank by the wicked circus ringmaster, Sam Sly. She is very unhappy, and longs to go back to Silversands bay, but will she ever escape? Who is there to help her?
       </p>
+      <div class={"mermaid-gallery"}>
+        <Gallery />
+      </div>
       <div class={"show-info"}>        
         <p>  
           With beautiful puppetry and performance, and music and songs by Barb Jungr, Watershed Productions are proud to present this Little Angel Theatre and Royal and Derngate production. 

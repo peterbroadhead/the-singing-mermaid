@@ -21,6 +21,8 @@ body{
     background-image: url("../images/ocean-bg.jpg");
     background-size: cover;
     background-position: center;
+    padding-bottom: 200px;
+    color:#b6eefb;
 }
 
 a{
@@ -45,23 +47,27 @@ h1 img{
 }
 
 .show-info{
-    background: #ffffffe0;
+    background: #fff;
     color: black;
     text-shadow: 0 0 black;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     text-align: initial;
     font-family: 'Monksie20';
     box-shadow: 0 0 30px #00204c;
-    margin: 100px;
+    margin-top: 100px;
 }
 
 .show-info a{
     background: #e3719e;
     padding: 20px;
     display: inline-block;
-    margin-right: 20px;
-    border-radius: 100px;}
+    border-radius: 100px;
+    width: calc(50% - 80px);
+    text-align: center;
+    border: 20px solid #fff;
+}
+
 
 main li{
     list-style: none;
@@ -81,3 +87,48 @@ span.four .fa-star:nth-child(5){
 span.none .fa-star{
     display: none;
 }
+
+.mermaid-gallery div.css-dvst2w{
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 300px 300px;    
+
+}
+
+
+
+
+/* Mobile */
+@media only screen and (max-width: 1000px) {
+    main, h1 img{
+        width: 100%;
+    }
+
+    .big-quote{
+        font-size: 40px;
+    }
+
+    .mermaid-gallery{
+        padding: 20px;
+    }
+    
+    .mermaid-gallery div.css-dvst2w{
+        grid-template-columns: 100%;
+    }
+
+    ul{
+        padding: 0;;
+    }
+
+    .show-info{
+        margin: 20px;
+    }
+
+    .show-info a{
+        width: calc(100% - 40px);
+        border: 0;
+        margin-top: 20px;
+    }
+}
+
+
+

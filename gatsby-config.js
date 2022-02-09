@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
       title: `The Singing Mermaid`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.thesingingmermaid.co.uk`
   },
   plugins: [
     "gatsby-plugin-image", 
@@ -10,6 +10,7 @@ module.exports = {
     "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp", 
     "gatsby-transformer-sharp", 
+    "gatsby-theme-gallery",
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
