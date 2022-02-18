@@ -57,6 +57,8 @@ const IndexPage = () => {
         <span>The Singing Mermaid - A Watershed Production</span>
         <img src={Mermaid} alt='The Singing Mermaid'></img>
       </h1>
+      <h2>‘ At the end, 4 year old Hilda is still laughing about an opening gag about how to do a handstand. This is a fun warm-hearted adventure that will leave you humming its songs and wanting to hug a seagull’ </h2>
+      <iframe width="800" height="400" src="https://www.youtube.com/embed/1EanZhXD47M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <p class={"big-quote"}>
         Did you ever go to Silversands
         <br></br>
@@ -71,24 +73,7 @@ const IndexPage = () => {
       </p>
       <div class={"mermaid-gallery"}>
         <Gallery />
-      </div>
-      <div class={"show-info"}>        
-        <p>  
-          With beautiful puppetry and performance, and music and songs by Barb Jungr, Watershed Productions are proud to present this Little Angel Theatre and Royal and Derngate production. 
-        </p>
-        <p> 
-          Age recommendation 3-8 yrs. 
-        </p>
-        <p> 
-          Duration 55 minutes. No interval.
-        </p>
-        <a href={"https://polkatheatre.com/event/the-singing-mermaid/"}>
-          Book Now at the Polka Theatre
-        </a>
-        <a href={"https://www.littleangeltheatre.com/whats-on/the-singing-mermaid/"}>
-          Book Now at the Little Angel Theatre
-        </a>
-      </div>
+      </div>      
       <ul>
         {reviews.map(review => (
           <li key={review.url}>
@@ -107,11 +92,23 @@ const IndexPage = () => {
           </li>
         ))}
       </ul>
-      <article>
-        <ul>
-
-        </ul>
-      </article>
+      <div class={"show-info"}>        
+        <p>  
+          With beautiful puppetry and performance, and music and songs by Barb Jungr, Watershed Productions are proud to present this Little Angel Theatre and Royal and Derngate production. 
+        </p>
+        <p> 
+          Age recommendation 3-8 yrs. 
+        </p>
+        <p> 
+          Duration 55 minutes. No interval.
+        </p>
+        <a href={"https://polkatheatre.com/event/the-singing-mermaid/"}>
+          Book Now at the Polka Theatre
+        </a>
+        <a href={"https://www.littleangeltheatre.com/whats-on/the-singing-mermaid/"}>
+          Book Now at the Little Angel Theatre
+        </a>
+      </div>
     </main>
   )
 }
