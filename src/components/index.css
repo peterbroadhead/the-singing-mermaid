@@ -11,7 +11,6 @@ body{
     font-family: Monksie20;
     margin: 0px;
     background: rgb(2, 103, 175);
-    color: #b6eefb;
     font-size: 1rem;
     display: flex;
     justify-content: center;
@@ -22,7 +21,6 @@ body{
     background-size: cover;
     background-position: center;
     padding-bottom: 200px;
-    color:#b6eefb;
 }
 
 a{
@@ -37,7 +35,16 @@ a{
 main{
     width: 1200px;
 }
+
 h1{
+    font-size: 1rem;
+}
+
+h2, .big-quote{
+    font-size: 1.25rem;
+}
+
+h1 span{
     color: transparent;
     text-shadow: none;
     font-size: 0;
@@ -46,10 +53,6 @@ h1{
 
 h1 img{
     width: 1200px;
-}
-
-.big-quote{
-    font-size: 50px;
 }
 
 .show-info{
@@ -80,10 +83,14 @@ main li{
     padding-top: 30px;
 }
 
+main li p{
+    margin: 0;
+}
+
 main li a{
     display: block;
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 1.5rem;
 }
 
 span.four .fa-star:nth-child(5){
@@ -99,8 +106,6 @@ span.none .fa-star{
     grid-template-rows: 300px 300px;    
 
 }
-
-
 
 
 /* Mobile */
