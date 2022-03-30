@@ -9,7 +9,6 @@ import { Link } from "gatsby"
 import Mermaid1 from "../images/latest/1 Singing Mermaid-Little Angel Theatre.jpg"
 import Mermaid2 from "../images/latest/2 Singing Mermaid-Little Angel Theatre.jpg"
 import Mermaid3 from "../images/latest/3 Singing Mermaid-Little Angel Theatre.jpg"
-//import Mermaid4 from "../images/latest/Singing Mermaid-Little Angel Theatre.jpg"
 
 
 const IndexPage = () => {
