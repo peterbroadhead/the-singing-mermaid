@@ -3,8 +3,6 @@ import "../components/index.css"
 import { Helmet } from 'react-helmet'
 import Menu from "../components/menu.js"
 
-
-
 const SongsPage = () => {
   return (    
     <main>
@@ -13,7 +11,7 @@ const SongsPage = () => {
       <h1>Book your ticket for The Singing Mermaid</h1>  
       <ul>
         <li>
-          <a href={"https://www.littleangeltheatre.com/whats-on/the-singing-mermaid/"} target="_blank">
+          <a href={"https://www.littleangeltheatre.com/whats-on/the-singing-mermaid/"} target="_blank" rel="noreferrer">
             London - Little Angel Theatre<br></br>29 Mar–24 Apr 2022
           </a>
         </li>
