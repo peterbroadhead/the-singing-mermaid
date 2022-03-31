@@ -20,7 +20,7 @@ const IndexPage = () => {
         <span>The Singing Mermaid</span>
         <img src={Mermaid} alt='The Singing Mermaid'></img>
       </h1>
-      <h2>The Guardian : ‘This is a fun warm-hearted adventure that will leave you humming its songs and wanting to hug a seagull’</h2>
+      <h2>The Guardian<br></br> <span>‘This is a fun warm-hearted adventure that will leave you humming its songs and wanting to hug a seagull’</span></h2>
       <iframe width="800" height="400" src="https://www.youtube.com/embed/1EanZhXD47M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
       <p class={"big-quote"}>
         Did you ever go to Silversands
@@ -31,11 +31,17 @@ const IndexPage = () => {
         <br></br>
         Who sang in the deep blue bay
       </p>
-      <img src={Mermaid1} alt='The Singing Mermaid'></img>
-      <p>
-        One day the singing mermaid is tempted away from all of her sea-creature friends to join a travelling circus. The audiences love to hear her sing but the poor mermaid was tricked! Instead of the swimming pool she was promised, she is kept in a small fish tank by the wicked circus ringmaster, Sam Sly. She is very unhappy, and longs to go back to Silversands bay, but will she ever escape? Who is there to help her?
+      <figure>
+        <img src={Mermaid1} alt='The Singing Mermaid'></img>
+        <figcaption>Photos of the orginal production Ⓒ Tristram Kenton</figcaption>
+      </figure>
+
+      <p style={{width:"70%"}}>
+        One day the singing mermaid is tempted away from all of her sea-creature friends to join a travelling circus. The audiences love to hear her sing but the poor mermaid was tricked! Instead of the swimming pool she was promised, she is kept in a small fish tank by the wicked circus ringmaster, Sam Sly.
+      <br></br>
+      <br></br>
+      Age recommended 3 - 8 Years
       </p>
-      <p>Age recommended 3 - 8 Years</p>
       <img src={Mermaid2} alt='The Singing Mermaid'></img>
       {/* <div class={"mermaid-gallery"}>
         <Gallery />
@@ -44,7 +50,7 @@ const IndexPage = () => {
       <img src={Mermaid3} alt='The Singing Mermaid'></img>
       <div class="show-info">        
         <p>  
-        Adapted from the book by Samantha Lane and Barb Jungr, with music and songs by Barb Jungr, and puppets by Lyndie Wright. 
+        The Singing Mermaid by Julia Donaldson and Lydia Monk is adapted for the stage by Barb Jungr and Samantha Lane with music and songs by Barb Jungr.
         </p>
         <p> 
           Age recommendation 3-8 yrs. 

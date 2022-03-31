@@ -10,14 +10,13 @@ html{
 body{    
     font-family: Monksie20;
     margin: 0px;
-    background: rgb(2, 103, 175);
-    font-size: 1rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-shadow: 0 0 10px #004f87;
     text-align: center;
     padding-bottom: 200px;
+
 }
 
 .bg{
@@ -32,7 +31,20 @@ body{
     z-index: -1;
 }
 
+p{
+    margin: 10px;
+}
+
+div{
+    background: transparent;
+}
+
 a{
+    display: none;
+}
+
+main a{
+    display: inline;
     color: #ffd902;
     text-decoration: none;
 }
@@ -58,10 +70,12 @@ a.main_links:hover{
     background: #ca3d76;
 }
 
-a.industry{
+menu a.main_links.industry{
     position: fixed;
     top: 0;
     right: 0;
+    background: #1047ad;
+    color: white;
 }
 
 .fa-star{
@@ -73,21 +87,35 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-size: 1rem;
 }
 
-h1{
+main h1{
     font-size: 1.5rem;
     flex: 100%;
+    margin-bottom: 0;
 }
 
 h1.home_h1{
     font-size: 1rem;
 }
 
-h2, .big-quote{
+main h2{    
+    color: #ffd804;
+    margin: 0;
+    width: 75%;
+    margin-top: -40px;
+}
+
+h2 span{
+    color: white;
+    font-size: 1rem;
+}
+
+.big-quote{
     font-size: 1.25rem;
-    color: #98ebff;
     flex:100%;
+    margin: 0;
 }
 
 h1 span{
@@ -95,7 +123,6 @@ h1 span{
     text-shadow: none;
     font-size: 0;
 }
-
 
 h1 img{
     width: 1200px;
@@ -126,7 +153,7 @@ h1 img{
 
 main li{
     list-style: none;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 main li p{
@@ -155,11 +182,41 @@ span.none .fa-star{
 
 iframe{
     width: 50%;
-    margin: 20px;
+    margin: 20px 25%;
 }
 
 blockquote span{
     margin-right: 5px;
+}
+
+figcaption{
+    font-size: 0.75rem;
+    color: #f7bca7;
+}
+
+section{
+    background: white;
+    color: black;
+    text-shadow: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-size: 0.65rem;
+    text-align: left;   
+    margin-top: 20px;
+}
+
+section ul{
+    margin: 0;
+    
+}
+
+section ul li{
+    list-style: disc;
+    padding: 0;
+}
+
+section a{
+    color:#0376d0;
 }
 
 

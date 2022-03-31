@@ -24,6 +24,14 @@ module.exports = {
         "path": "./src/images/"
       },
       __key: "images"
+    },
+    {
+      resolve: '@mkitio/gatsby-theme-password-protect',
+      options: {
+        partialMatching: true,
+        pagePaths: ['/industry'],
+        password: 'Wat3rsh3d'    
+      }
     }    
   ]
 };

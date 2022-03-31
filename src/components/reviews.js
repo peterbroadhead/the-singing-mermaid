@@ -10,7 +10,7 @@ const reviews = [
     excerptOne:
       "‘It’s a lovely piece of theatre that’ll leave its audience in a trance, while possessing enough loopy visual brio to ensure adults have a swimming time too.’",
     excerptTwo:
-      "‘brings the world illustrated by Lydia Monks to gloriously barmy life.’",
+      "‘Brings the world illustrated by Lydia Monks to gloriously barmy life.’",
   },
   {
     source: "The Times",
@@ -26,9 +26,9 @@ const reviews = [
     stars: "none",
     url: "",
     excerptOne:
-      "‘Bad puns, circus tricks and goggle-eyed jellyfish abound in this smart adaptation of the popular picture book’",
+      "‘Bad puns, circus tricks and goggle-eyed jellyfish abound in this smart adaptation of the popular picture book’...‘At the end, 4 year old Hilda is still laughing about an opening gag about how to do a handstand. This is a fun, warm-hearted adventure that may leave you humming its songs – and even wanting to hug a seagull.'",
     excerptTwo:
-      "‘At the end, 4 year old Hilda is still laughing about an opening gag about how to do a handstand. This is a fun, warm-hearted adventure that may leave you humming its songs – and even wanting to hug a seagull. ",
+      "",
   },
   {
     source: "Musical Theatre Review",
