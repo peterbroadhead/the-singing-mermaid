@@ -4,8 +4,8 @@ import styled from "styled-components"
 
 const MenuIcon = styled.button`
     position:fixed;
-    right:1rem;
-    top:1rem;
+    right:0.6rem;
+    top:0.6rem;
     display:flex;
     justify-content:space-around;
     flex-direction:column;
@@ -78,7 +78,7 @@ const MobileNav = styled.div`
     top: 0.5REM;
     left: 0.5REM;
     text-align: left;
-    padding: 0.7rem;
+    padding: 0.3rem 0.7rem;
     border-radius: 100px;
     right: 0.5rem;
     display:none;
