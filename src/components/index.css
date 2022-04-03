@@ -185,6 +185,12 @@ iframe{
     margin: 20px 25%;
 }
 
+blockquote{
+    display: inline;
+    display: grid;
+    grid-gap: 10px;
+}
+
 blockquote span{
     margin-right: 5px;
 }
@@ -219,6 +225,11 @@ section a{
     color:#0376d0;
 }
 
+.siteTag{
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
 
 /* Mobile */
 @media only screen and (max-width: 1000px) {    
@@ -226,8 +237,16 @@ section a{
         font-size: 0.75rem;
     }
 
+    .siteTag{
+        display: none;
+    }
+
     main, h1 img{
         width: 100%;
+    }
+
+    main{
+        padding-top: 3rem;
     }
 
     main img{
@@ -244,11 +263,11 @@ section a{
     }
     
     h2, p, main li a {
-        width: 90%;
+        width: 90% !important;
         margin: 5%;
     }
 
-    menu li a{
+    menu{
         display: none;        
     }
 
@@ -290,6 +309,13 @@ section a{
         width: 90%;
         margin: 5%;
     }
+
+
+blockquote{
+    display: inline;
+    display: grid;
+    grid-gap: 10px;
+}
 
 }
 

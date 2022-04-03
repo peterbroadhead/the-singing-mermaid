@@ -18,7 +18,7 @@ const SongsPage = () => {
         <span style={{color:""}}>"Captivated"</span>
         <span style={{color:"#75b75c"}}>"Brilliant"</span>
       </blockquote>      
-      <iframe style={{width:"1000px"}}height="500" src="https://www.youtube.com/embed/q8sPF-SKprs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe height="500" src="https://www.youtube.com/embed/q8sPF-SKprs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
   )
 }
