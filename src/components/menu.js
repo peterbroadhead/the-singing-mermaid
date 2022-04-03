@@ -54,6 +54,22 @@ const MobileMenu = styled.nav`
     background: #e05a90;
     transition: transform 300ms;
     transform:${({nav}) => nav ? "translatex(0)": "translatex(100%)"};
+    ul{
+        margin:0;        
+        padding:0;
+        li{
+            padding-bottom:0;
+            a{
+                margin:0;
+                width:100% !important;
+                font-size:1rem;
+                padding-bottom:10px;
+                :hover{
+                    background:transparent;
+                }
+            }
+        }
+    }
 `
 
 const MobileNav = styled.div`
