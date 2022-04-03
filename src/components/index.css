@@ -233,7 +233,7 @@ section a{
 
 /* Mobile */
 @media only screen and (max-width: 1000px) {    
-    body, h1.home_h1, h2{
+    body, h1.home_h1, h2, h2 span{
         font-size: 0.75rem;
     }
 
