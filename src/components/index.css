@@ -328,6 +328,10 @@ video{
         margin: 5%;
     }
 
+    video{
+        width: 100%;
+    }
+
 
 }
 
