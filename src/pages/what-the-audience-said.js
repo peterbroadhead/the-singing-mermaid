@@ -8,7 +8,6 @@ const SongsPage = () => {
     <main>
       <Helmet title="The Singing Mermaid - What the audience thought" defer={false} description="A play for children based on the orginal book The Singing Mermaid written by Julia Donaldson and illustrated by Lydia Monks."/>            
       <Menu />
-      <h1>See what the audience thought!</h1>  
       <blockquote>
         <span style={{color:"#e05a90"}}>"Mesmerised"</span>
         <span style={{color:"#87ccdd"}}>"Tremendous"</span>

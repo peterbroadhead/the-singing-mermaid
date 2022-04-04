@@ -9,12 +9,17 @@ const IndustryPage = () => {
     <main>
       <Helmet title="The Singing Mermaid - Industry Information" defer={false} description="A play for children based on the orginal book The Singing Mermaid written by Julia Donaldson and illustrated by Lydia Monks."/>            
       <Menu />
-      <h1>Below is an archive recording of the second production for reference only</h1>  
-      <video width="1000" height="500" controls>
+      <section>
+        <h1>On this page: About the producers, archive video of the production, tech spec, ground plan.</h1> 
+        <h4>About Watershed Productions</h4>
+        <p>Watershed Productions is an independent theatre productions company specialising in great theatre for children and families.  We’ve toured to theatres and arts centres across the UK for 25 years and, after a pause during the worst of the covid pandemic, we’re delighted to be back on the road again.</p>
+        <p>Our past productions include <b>Charlie and Lola’s Extremely New Play</b> and <b>Charlie and Lola’s Best Bestest Play</b>, John Godber’s stage adaptation of <b>Horrid Henry -  Live and Horrid!</b>, classic children’s books <b>Charlotte’s Web</b>, <b>Winnie the Witch</b>, and <b>The Borrowers</b> and stage adaptations of several novels by Jacqueline Wilson, including <b>Double Act</b>, <b>Secrets</b>, <b>The Suitcase Kid</b>, <b>Midnight</b> and <b>Bad Girls</b>.</p>
+        <p><b>Chris Wallis</b> was, many years ago, Artistic Director of the Unicorn Theatre for Children.  He moved from theatre to radio and, with fellow producer Jill Waters, made highly successful readings and drama for BBC Radio 4 whilst keeping his love of theatre alive with Watershed Productions.  <b>Elizabeth Jones</b> was Chief Executive of York Theatre Royal before starting a freelance career which has involved her working with Wycombe Swan, Oldham Coliseum, Theatre by the Lake in Keswick, Basingstoke Haymarket and many others.</p>
+        <p>The video below is an archive recording from the production at Sheffield Crucible studio. It is for industry reference only.</p>
+        <video width="1000" height="500" controls>
         <source src="https://watershedtheatre.com/videos/The%20Singing%20Mermaid%20W%20Titles.mp4" type="video/mp4"></source>
       </video>
-      <section>
-        <h3>THE SINGING MERMAID - TECH SPEC</h3>
+        <h3>THE SINGING MERMAID – TECH SPEC 4th April 22.</h3>
         <p>We are in the process of adapting the production to make it easier to tour. The time we need in each
         venue will reduce but we may need an additional session (evening of the get-in day) for a tech run,
         depending on cast changes. At present, we expect to need 3 people (plus our SM) for the get-in &amp; fit-up.

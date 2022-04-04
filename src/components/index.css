@@ -185,9 +185,10 @@ iframe{
 }
 
 blockquote{
-    display: inline;
-    display: grid;
-    grid-gap: 10px;
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 blockquote span{
@@ -210,6 +211,15 @@ section{
     margin-top: 20px;
 }
 
+section h1{
+    font-size: 0.8rem;
+}
+
+section p{
+    margin-bottom: 25px;
+    font-size: 0.5rem;
+}
+
 section ul{
     margin: 0;
     
@@ -218,6 +228,7 @@ section ul{
 section ul li{
     list-style: disc;
     padding: 0;
+    font-size: 0.5rem;
 }
 
 section a{
@@ -317,12 +328,6 @@ video{
         margin: 5%;
     }
 
-
-blockquote{
-    display: inline;
-    display: grid;
-    grid-gap: 10px;
-}
 
 }
 
