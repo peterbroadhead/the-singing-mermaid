@@ -32,17 +32,16 @@ const IndexPage = () => {
         Who sang in the deep blue bay
       </p>
       <figure>
-        <img src={Mermaid1} alt='The Singing Mermaid'></img>
+      <img src={Mermaid2} alt='The Singing Mermaid'></img>
         <figcaption>Photos of the orginal production Ⓒ Tristram Kenton</figcaption>
       </figure>
-
       <p style={{width:"70%"}}>
         One day the singing mermaid is tempted away from all of her sea-creature friends to join a travelling circus. The audiences love to hear her sing but the poor mermaid was tricked! Instead of the swimming pool she was promised, she is kept in a small fish tank by the wicked circus ringmaster, Sam Sly.
       <br></br>
       <br></br>
       Age recommended 3 - 8 Years
       </p>
-      <img src={Mermaid2} alt='The Singing Mermaid'></img>
+      <img src={Mermaid1} alt='The Singing Mermaid'></img>
       {/* <div class={"mermaid-gallery"}>
         <Gallery />
       </div>       */}

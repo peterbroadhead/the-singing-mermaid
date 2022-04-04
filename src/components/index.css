@@ -16,7 +16,6 @@ body{
     text-shadow: 0 0 10px #004f87;
     text-align: center;
     padding-bottom: 200px;
-
 }
 
 .bg{
@@ -229,6 +228,10 @@ section a{
     position: fixed;
     bottom: 0.5rem;
     right: 0.5rem;
+}
+
+video{
+    margin-top: 20px;
 }
 
 /* Mobile */
