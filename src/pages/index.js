@@ -49,7 +49,7 @@ const IndexPage = () => {
       <img src={Mermaid3} alt='The Singing Mermaid'></img>
       <div class="show-info">        
         <p>  
-        The Singing Mermaid by Julia Donaldson and Lydia Monk is adapted for the stage by Barb Jungr and Samantha Lane with music and songs by Barb Jungr.
+        The Singing Mermaid by Julia Donaldson and Lydia Monks is adapted for the stage by Barb Jungr and Samantha Lane with music and songs by Barb Jungr.
         </p>
         <p> 
           Age recommendation 3-8 yrs. 
