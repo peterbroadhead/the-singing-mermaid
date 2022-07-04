@@ -58,11 +58,8 @@ const IndexPage = () => {
           Duration 55 minutes. No interval.
         </p>
         <Link href="/tour">
-          Book Now       
+          Find out where you can see The Singing Mermaid       
         </Link>
-        <a href={"https://www.littleangeltheatre.com/whats-on/the-singing-mermaid/"}>
-          Book Now at the Little Angel Theatre
-        </a>
       </div>
     </main>
   )

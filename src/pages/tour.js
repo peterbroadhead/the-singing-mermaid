@@ -11,10 +11,15 @@ const SongsPage = () => {
       <h1>Book your ticket for The Singing Mermaid</h1>  
       <ul>
         <li>
-          <a href={"https://www.littleangeltheatre.com/whats-on/the-singing-mermaid/"} target="_blank" rel="noreferrer">
-            London - Little Angel Theatre<br></br>29 Mar–24 Apr 2022
+          <a href={"https://www.lakesidearts.org.uk/"} target="_blank" rel="noreferrer">
+          Nottingham - Lakeside Arts <br></br>9 to 31 December 2022 <br></br>Tickets on sale from 13th July!
           </a>
         </li>
+        <li>
+          <a href={"www.watersidearts.org"} target="_blank" rel="noreferrer">
+          Manchester - Waterside Arts <br></br>17 to 19 February 2023 <br></br>Tickets on sale now!
+          </a>
+        </li>                                                    
         <li>Coming to a Theatre near you soon...</li>
       </ul>
     </main>
