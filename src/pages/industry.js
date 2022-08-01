@@ -2,6 +2,8 @@ import * as React from "react"
 import "../components/index.css"
 import { Helmet } from 'react-helmet'
 import Menu from "../components/menu.js"
+import Groundplan from "../images/groundplan.jpg"
+
 
 
 const IndustryPage = () => {
@@ -28,7 +30,8 @@ const IndustryPage = () => {
         <h3>Staging</h3>
         <ul>
           <li>The show needs a playing area 6m wide by 5m deep by 3.5m high. The ground plan is being redrawn.</li>
-          <li>Flying is not required.</li>        
+          <li>Flying is not required.</li> 
+          <li><img src={Groundplan} style={{width:"100%"}} alt='The Singing Mermaid'></img></li>
         </ul>
         <h3>Personnel</h3>
         <ul>
