@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
       title: `The Singing Mermaid`,
-    siteUrl: `https://www.thesingingmermaid.co.uk`
+      description: `The Singing Mermaid Live. Play by Watershed Theatre`,
+      siteUrl: `https://www.thesingingmermaid.co.uk`
   },
   plugins: [
     "gatsby-plugin-image", 
@@ -12,6 +13,7 @@ module.exports = {
     "gatsby-transformer-sharp", 
     "gatsby-theme-gallery",
     `gatsby-plugin-styled-components`,
+    'gatsby-plugin-robots-txt',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
