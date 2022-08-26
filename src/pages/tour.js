@@ -16,7 +16,7 @@ const SongsPage = () => {
           </a>
         </li>
         <li>
-          <a href={"www.watersidearts.org"} target="_blank" rel="noreferrer">
+          <a href={"https://watersidearts.org/whats-on/3221-the-singing-mermaid/"} target="_blank" rel="noreferrer">
           Manchester - Waterside Arts <br></br>17 to 19 February 2023 <br></br>Tickets on sale now!
           </a>
         </li>                                                    
