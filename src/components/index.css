@@ -245,6 +245,36 @@ video{
     margin-top: 20px;
 }
 
+.shows{    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: top;
+    align-items: flex-start;
+}
+
+.shows li{
+    flex: 50%;
+    display: flex;    
+    justify-content: center;
+}
+
+.shows li a{
+    font-size: 30px;
+}
+
+.shows li:first-child, .shows li:last-child{
+    flex: 100%;
+}
+
+.shows li h3{
+    margin: 0;
+    font-size: 40px;
+}
+
+.shows li span{
+    color: white;
+}
+
 /* Mobile */
 @media only screen and (max-width: 1000px) {    
     body, h1.home_h1, h2, h2 span{
