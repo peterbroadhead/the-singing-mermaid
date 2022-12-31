@@ -11,11 +11,6 @@ const SongsPage = () => {
       <h1>Book your ticket for The Singing Mermaid</h1>              
       <ul className="shows">
         <li>
-          <a href={"https://www.lakesidearts.org.uk/"} target="_blank" rel="noreferrer">
-          <h3>Nottingham</h3>Lakeside Arts <br></br><span>9 to 31 December 2022</span><br></br>Tickets selling fast!
-          </a>
-        </li>
-        <li>
           <a href={"https://www.artsdepot.co.uk/"} target="_blank" rel="noreferrer">
           <h3>London N12</h3>artsdepot<br></br><span>12 to 14 February</span>
           </a>
@@ -27,17 +22,17 @@ const SongsPage = () => {
         </li> 
         <li>
           <a href={"https://www.polkatheatre.com"} target="_blank" rel="noreferrer">
-          <h3>London SW19</h3>Polka Theatre<br></br><span>1 to 8 April</span>
+          <h3>London SW19</h3>Polka Theatre<br></br><span>31 March to 8 April</span>
           </a>
         </li> 
         <li>
           <a href={"https://www.anvilarts.org.uk"} target="_blank" rel="noreferrer">
-          <h3>Basingstoke</h3>Haymarket Theatre<br></br><span>12 & 13 April</span>
+          <h3>Basingstoke</h3>The Haymarket<br></br><span>12 & 13 April</span>
           </a>
         </li> 
         <li>
           <a href={"https://www.theatrclwyd.com/"} target="_blank" rel="noreferrer">
-          <h3>Mold</h3>Theatr Clwyd<br></br><span>15 & 16 April</span>
+          <h3>Mold</h3>Theatr Clwyd<br></br><span>15 & 16 April/Ebrill</span>
           </a>
         </li> 
         <li>
@@ -50,7 +45,7 @@ const SongsPage = () => {
           <h3>Lancaster</h3>The Dukes<br></br><span>30 & 31 May</span>
           </a>
         </li>   
-        <li>
+        <li> 
           <a href={"https://www.theatreroyal.org"} target="_blank" rel="noreferrer">
           <h3>Bury St Edmunds</h3>Theatre Royal<br></br><span>2 & 3 June</span> 
           </a>
