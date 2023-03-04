@@ -89,6 +89,10 @@ main{
     font-size: 1rem;
 }
 
+main.cast ul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 main h1{
     font-size: 1.5rem;
     flex: 100%;
@@ -201,8 +205,6 @@ figcaption{
 }
 
 section{
-    background: white;
-    color: black;
     text-shadow: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
@@ -211,7 +213,7 @@ section{
     margin-top: 20px;
 }
 
-section h1{
+h1{
     font-size: 0.8rem;
 }
 
@@ -221,19 +223,49 @@ section p{
 }
 
 section ul{
-    margin: 0;
-    
+    margin: auto;        
+    width: 600px;
+    padding: 0;
 }
 
 section ul li{
-    list-style: disc;
+    list-style: none;
     padding: 0;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
+    padding: 10px;
+}
+
+section ul li b{
+    width: 300px;
+    display:inline-block;
 }
 
 section a{
     color:#0376d0;
 }
+
+section figure{
+    display: flex;
+    background:white;
+    color: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin:  40px 0;
+}
+
+section figure img{
+    height: 300px;
+}
+
+section figure:nth-child(3){
+    background: #deeff3;
+}
+
+section figure:nth-child(4){
+    background: #f2f1f1;
+}
+
+
 
 .siteTag{
     position: fixed;
@@ -360,6 +392,21 @@ video{
 
     video{
         width: 100%;
+    }
+
+    section ul{
+        width: 100%;
+    }
+
+    section figure{
+        display: block;
+        padding: 10px;
+    }
+
+    section figure img{
+        width: auto;
+        margin: auto;
+
     }
 
 

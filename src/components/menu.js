@@ -106,6 +106,7 @@ export default function Menu() {
                 <ul>
                     <li><Link to="/" className="main_links mobile">Home</Link> </li>
                     <li><Link to="/tour/" className="main_links mobile">Where to see us</Link> </li>
+                    <li><Link to="/cast/" className="main_links">Cast</Link> </li>
                     <li><Link to="/what-the-audience-said/" className="main_links">What the audience said!</Link> </li>
                     <li><Link to="/songs/" className="main_links">Listen to the songs</Link> </li>
                     <li><Link to="/industry/" className="main_links industry">Industry</Link></li>
@@ -115,6 +116,7 @@ export default function Menu() {
         <menu>
             <li><Link to="/" className="main_links mobile">Home</Link> </li>
             <li><Link to="/tour/" className="main_links mobile">Where to see us</Link> </li>
+            <li><Link to="/cast/" className="main_links">Cast</Link> </li>
             <li><Link to="/what-the-audience-said/" className="main_links">What the audience said!</Link> </li>
             <li><Link to="/songs/" className="main_links">Listen to the songs</Link> </li>
             <li><Link to="/industry/" className="main_links industry">Industry</Link></li>

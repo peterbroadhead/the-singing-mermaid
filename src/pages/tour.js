@@ -11,47 +11,37 @@ const SongsPage = () => {
       <h1>Book your ticket for The Singing Mermaid</h1>              
       <ul className="shows">
         <li>
-          <a href={"https://www.artsdepot.co.uk/"} target="_blank" rel="noreferrer">
-          <h3>London N12</h3>artsdepot<br></br><span>12 to 14 February</span>
-          </a>
-        </li> 
-        <li>
-          <a href={"https://northernstage.co.uk/"} target="_blank" rel="noreferrer">
-          <h3>Newcastle on Tyne</h3> Northern Stage<br></br><span>21 to 23 Feb</span>
-          </a>
-        </li> 
-        <li>
-          <a href={"https://www.polkatheatre.com"} target="_blank" rel="noreferrer">
+          <a href={"https://polkatheatre.com/event/the-singing-mermaid-2023/"} target="_blank" rel="noreferrer">
           <h3>London SW19</h3>Polka Theatre<br></br><span>31 March to 8 April</span>
           </a>
         </li> 
         <li>
-          <a href={"https://www.anvilarts.org.uk"} target="_blank" rel="noreferrer">
+          <a href={"https://www.anvilarts.org.uk/whats-on/event/the-singing-mermaid"} target="_blank" rel="noreferrer">
           <h3>Basingstoke</h3>The Haymarket<br></br><span>12 & 13 April</span>
           </a>
         </li> 
         <li>
-          <a href={"https://www.theatrclwyd.com/"} target="_blank" rel="noreferrer">
+          <a href={"https://www.theatrclwyd.com/event/the-singing-mermaid"} target="_blank" rel="noreferrer">
           <h3>Mold</h3>Theatr Clwyd<br></br><span>15 & 16 April/Ebrill</span>
           </a>
         </li> 
         <li>
-          <a href={"https://www.birmingham-rep.co.uk/"} target="_blank" rel="noreferrer">
+          <a href={"https://www.birmingham-rep.co.uk/whats-on/the-singing-mermaid/"} target="_blank" rel="noreferrer">
           <h3>Birmingham</h3> Birmingham Rep<br></br><span>27 & 28 May</span>
           </a>
         </li>  
         <li>
-          <a href={"https://dukeslancaster.org/"} target="_blank" rel="noreferrer">
+          <a href={"https://dukeslancaster.org/whats-on/theatre/the-singing-mermaid"} target="_blank" rel="noreferrer">
           <h3>Lancaster</h3>The Dukes<br></br><span>30 & 31 May</span>
           </a>
         </li>   
         <li> 
-          <a href={"https://www.theatreroyal.org"} target="_blank" rel="noreferrer">
+          <a href={"https://theatreroyal.org/shows/the-singing-mermaid/"} target="_blank" rel="noreferrer">
           <h3>Bury St Edmunds</h3>Theatre Royal<br></br><span>2 & 3 June</span> 
           </a>
         </li>   
         <li>
-          <a href={"https://www.theatreroyal.org"} target="_blank" rel="noreferrer">
+          <a href={"https://homemcr.org/production/the-singing-mermaid/"} target="_blank" rel="noreferrer">
           <h3>Manchester</h3>HOME<br></br><span>24 to 26 Oct</span>
           </a>
         </li>                                               
