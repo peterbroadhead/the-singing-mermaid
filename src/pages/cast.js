@@ -113,7 +113,7 @@ const CastPage = () => {
           <li><b>Puppeteer</b> Heidi Goldsmith</li>
           <li><b>Associate Director</b> Oliver Hymans</li>
           <li><b>Stage Manager</b> Lucy Barter</li>
-          <li><b>Stage Manager</b> Jack Lawrence</li>
+          <li><b>Stage Manager</b> Jake Lawrence</li>
           <li><b>Adapted by</b> Samantha Lane & Barb Jungr</li>
           <li><b>Music and Lyrics by</b>  Barb Jungr</li>
           <li><b>Original production directed by</b>  Samantha Lane</li>
