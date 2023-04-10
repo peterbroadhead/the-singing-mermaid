@@ -10,11 +10,11 @@ const SongsPage = () => {
       <Menu />
       <h1>Book your ticket for The Singing Mermaid</h1>              
       <ul className="shows">
-        <li>
+        {/*<li>
           <a href={"https://polkatheatre.com/event/the-singing-mermaid-2023/"} target="_blank" rel="noreferrer">
           <h3>London SW19</h3>Polka Theatre<br></br><span>31 March to 8 April</span>
           </a>
-        </li> 
+        </li> */}
         <li>
           <a href={"https://www.anvilarts.org.uk/whats-on/event/the-singing-mermaid"} target="_blank" rel="noreferrer">
           <h3>Basingstoke</h3>The Haymarket<br></br><span>12 & 13 April</span>
