@@ -2,7 +2,8 @@ import * as React from "react"
 import "../components/index.css"
 import { Helmet } from 'react-helmet'
 import Menu from "../components/menu.js"
-import chris from "../images/chris_dobson.png"
+//import chris from "../images/chris_dobson.png"
+import adam from "../images/adam_ryan.png"
 import louise from "../images/louise_mellor.png"
 // import claire from "../images/claire_pointing.png"
 import heidi from "../images/heidi_goldsmith.png"
@@ -61,6 +62,28 @@ const CastPage = () => {
           </div>                                                                                                                                                                                              
         </figure>
         <figure>
+            <img src={adam} alt="Adam Ryan Headshot"></img>
+            <div>
+              <h3>Adam Ryan</h3>
+              <p>I trained at The Liverpool Institute for Performing Arts (LIPA). I have had the pleasure of playing Tom the Crocodile from Spot the Dog, Azrael in The Smurfs: Live on Stage and even hung out with The Very Hungry Caterpillar. The Singing Mermaid marked my third Christmas Season at Lakeside Arts, having previously been there with Flat Stanley and Red Riding Hood. It’s great to be back on tour with this lovely show.</p>
+              <p>
+                <b>What was your favourite story when you were young?</b>
+                <br></br>
+                I love reading books even to this day. I enjoyed the Funnybones stories and Richard Scarry’s picture books which I read with my Gran.
+              </p>  
+              <p>       
+                <b>Can you do any circus tricks?</b>
+                <br></br>
+                I can spin plates! (plastic ones, mind).
+              </p>
+              <p>
+                <b>Tell us a joke!</b>
+                <br></br>
+                How many tickles does it take to make an Octopus laugh? Ten-tickles!
+              </p>
+            </div>  
+          </figure>  
+        {/*<figure>
             <img src={chris} alt="Chris Dobson Headshot"></img>
             <div>
               <h3>Chris Dobson</h3>
@@ -82,7 +105,7 @@ const CastPage = () => {
               </p>
             </div>  
           </figure>            
-        {/* <figure>
+          <figure>
           <img src={claire} alt="Claire Pointing Headshot"></img>
           <div>
             <h3>Clare Pointing</h3>
@@ -109,11 +132,11 @@ const CastPage = () => {
 
         <ul>
           <li><b>Puppeteer</b> Louise Mellor</li>
-          <li><b>Puppeteer</b> Chris Dobson</li>
+          <li><b>Puppeteer</b> Adam Ryan</li>
           <li><b>Puppeteer</b> Heidi Goldsmith</li>
           <li><b>Associate Director</b> Oliver Hymans</li>
           <li><b>Stage Manager</b> Lucy Barter</li>
-          <li><b>Stage Manager</b> Jake Lawrence</li>
+          {/*<li><b>Stage Manager</b> Jake  Lawrence</li>*/}
           <li><b>Adapted by</b> Samantha Lane & Barb Jungr</li>
           <li><b>Music and Lyrics by</b>  Barb Jungr</li>
           <li><b>Original production directed by</b>  Samantha Lane</li>
