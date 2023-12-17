@@ -11,21 +11,20 @@ const SongsPage = () => {
       <h1>Book your ticket for The Singing Mermaid</h1>              
       <ul className="shows">
         <li>
-          <a href={"https://www.storyhouse.com/whats-on/?event-search=the+singing+mermaid"} target="_blank" rel="noreferrer">
-          <h3>Chester</h3>Storyhouse<br></br><span>21 to 22 Oct</span>
+          <a href={"https://www.artsdepot.co.uk/event/the-singing-mermaid/"} target="_blank" rel="noreferrer">
+          <h3>London N12</h3>artsdepot<br></br><span>30 March to 1 April</span>
           </a>
-        </li>  
+        </li> 
         <li>
-          <a href={"https://homemcr.org/production/the-singing-mermaid/"} target="_blank" rel="noreferrer">
-          <h3>Manchester</h3>HOME<br></br><span>24 to 26 Oct</span>
+          <a href={"https://thegulbenkian.co.uk/events/the-singing-mermaid/"} target="_blank" rel="noreferrer">
+          <h3>Canterbury</h3>The Gulbenkian<br></br><span>9 to 10 April</span>
           </a>
-        </li>  
+        </li>
         <li>
-          <a href={"https://www.lichfieldgarrick.com/whats-on/family/the-singing-mermaid/3183"} target="_blank" rel="noreferrer">
-          <h3>Lichfield</h3>Garrick Theatre<br></br><span>31 Oct to 1 Nov</span>
+          <a href={"https://www.theatreroyalwinchester.co.uk/whats-on/singing-mermaid"} target="_blank" rel="noreferrer">
+          <h3>Winchester</h3>Theatre Royal<br></br><span>13 to 14 April</span>
           </a>
-        </li>                                               
-        <li>Coming to a Theatre near you soon...</li>
+        </li> 
       </ul>
     </main>
   )
