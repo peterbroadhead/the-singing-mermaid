@@ -16,6 +16,11 @@ const SongsPage = () => {
           </a>
         </li> 
         <li>
+          <a href={"https://greenwichtheatre.org.uk/"} target="_blank" rel="noreferrer">
+          <h3>London SE10</h3>Greenwich Theatre<br></br><span>3 & 4 April</span>
+          </a>
+        </li>
+        <li>
           <a href={"https://thegulbenkian.co.uk/events/the-singing-mermaid/"} target="_blank" rel="noreferrer">
           <h3>Canterbury</h3>The Gulbenkian<br></br><span>9 to 10 April</span>
           </a>
