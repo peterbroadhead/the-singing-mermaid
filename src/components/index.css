@@ -257,15 +257,17 @@ section figure img{
     height: 300px;
 }
 
-section figure:nth-child(1){
+section figure:nth-child(2){
     background: #deeff3;
 }
 
-section figure:nth-child(2){
-    background: #f2f1f1;
+section figure:nth-child(1){
+    background: white;
 }
 
-
+section figure:nth-child(3){
+    background: #f2f1f1;
+}
 
 .siteTag{
     position: fixed;

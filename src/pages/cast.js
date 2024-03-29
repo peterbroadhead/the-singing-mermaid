@@ -2,11 +2,9 @@ import * as React from "react"
 import "../components/index.css"
 import { Helmet } from 'react-helmet'
 import Menu from "../components/menu.js"
-//import chris from "../images/chris_dobson.png"
-import adam from "../images/adam_ryan.png"
-import louise from "../images/louise_mellor.png"
-// import claire from "../images/claire_pointing.png"
-import heidi from "../images/heidi_goldsmith.png"
+import samuel from "../images/samuel headshot.png"
+import ruth from "../images/ruth headshot.png"
+import daisy from "../images/daisy headshot.png"
 
 const CastPage = () => {
   return (    
@@ -15,7 +13,77 @@ const CastPage = () => {
       <Menu />
       <h1>Meet the Singing Mermaid Cast</h1>
       <section>
+      <figure>
+          <img src={samuel} alt="Samuel Dutton Headshot"></img>
+          <div>
+            <h3>Samuel Dutton</h3>
+            <p>Theatre includes: The Singing Mermaid, The Pixie and the Pudding, Me..., The Further Adventures of The Owl and The Pussycat, Fantastic Mr Fox (Little Angel Theatre); Miss Julie, Black Comedy (Chichester Festival Theatre); Citizen Puppet (Blind Summit); Mojo (Theatre -Rites/New Victory Theater, New York); The Tempest (Dundee Rep); Hamlet, A Midsummer Night’s Dream, Love’s Labour’s Lost (RSC); Melody Loses Her Mojo (Liverpool Playhouse); Meat  (Bush Theatre);  Engi,  Tröll, Tomten  (Handbendi Brúðuleikhús); Peter Pan  (Royal Lyceum Edinburgh);  The Selfish Giant, Pinocchio  (Norwich Puppet Theatre).  Awards include: Best Puppetry - Polish Association of Theatre Artists, Fringe First – Edinburgh.</p>
+            <p>
+              <b>What was your favourite story when you were young?</b>
+              <br></br>
+              The Little Train by Graham Greene – amazing illustrations by Edward Ardizzone.
+            </p>
+            <p>
+              <b>Can you do any circus tricks?</b>
+              <br></br>
+              I thought about starting a flea circus but realised I’d have to start from scratch. 
+            </p>
+            <p>
+              <b>Tell us a joke!</b>
+              <br></br>
+              What do you get when you cross the ocean with the beach? I’m not that shore.
+            </p>
+          </div>           
+        </figure>
+
         <figure>
+          <img src={ruth} alt="Ruth Calkin Headshot"></img>
+          <div>
+            <h3>Ruth Calkin</h3>
+            <p>               
+            Most recently Ruth has appeared in The Smartest Giant in Town (LAT/Fiery Light, West End); the award-nominated solo-performer show The Bed (Little Angel) and Twirlywoos (Live) (MEI). Other theatre includes: There May Be A Castle (LAT); Jina and the STEM Sisters (HMDT Music) and The Very Hungry Caterpillar (MEI). She has been a regular with Mark Mander in The Clementine Show (Crazy Coqs @ Brasserie Zédel) and past work includes productions with companies such as Oily Cart, Theatre-Rites, Kneehigh and the RSC. Ruth was the puppetry development lead for CBeebies’ Moon and Me.             </p>
+            <p>          
+              <b>What was your favourite story when you were young?</b>
+              <br></br>
+              Everything by Roald Dahl but my top favourite was The Twits. 
+            </p>
+            <p>
+              <b>Can you do any circus tricks?</b>
+              <br></br>            
+              Erm…no…BUT!  I would love to have a try at stilt walking?! Either that or the Wall of Death.
+            </p>
+            <p>
+              <b>Tell us a joke!</b>
+              <br></br>
+              What do you call a fish with no body and no nose? Nobody knows! 
+            </p>
+          </div>                                                                                                                                                                                              
+        </figure>
+
+        <figure>
+          <img src={daisy} alt="Daisy Porter Headshot"></img>
+          <div>
+            <h3>Daisy Porter</h3>
+            <p>Daisy trained at East 15. This is her fourth project with Little Angel Theatre, having worked on Out of This World, The Wishing Tree and The Pixie & The Pudding. Recent other theatre credits include: Mulan Rouge (The Vaults); Alice in Wonderland (UK Puppetry Tour); and Albert’s Wondrous Voyage (Royal Albert Hall). Daisy is also a playwright and her debut puppetry show Mr. Toad will be touring the UK this year - so keep an eye out!</p>
+            <p>
+              <b>What was your favourite story when you were young?</b>
+              <br></br>
+              I grew up in Lyme Regis so my favourite book was Stone Girl, Bone Girl by Laurence Anholt. I used to walk on the beach and pretend I was Mary Anning looking for fossils - and sometimes I would be lucky and find one in the rocks!            
+            </p>
+            <p>
+              <b>Can you do any circus tricks?</b>
+              <br></br>
+              I can make a slice of carrot cake disappear…
+            </p>
+            <p>
+              <b>Tell us a joke!</b>
+              <br></br>
+              What is a frog’s favourite game? Croak-quet!
+            </p>
+          </div>           
+        </figure>
+
+        {/*<figure>
           <img src={louise} alt="Louise Mellor Headshot"></img>
           <div>
             <h3>Louise Mellor</h3>
@@ -83,7 +151,7 @@ const CastPage = () => {
               </p>
             </div>  
           </figure>  
-        {/*<figure>
+        <figure>
             <img src={chris} alt="Chris Dobson Headshot"></img>
             <div>
               <h3>Chris Dobson</h3>
@@ -131,25 +199,21 @@ const CastPage = () => {
         </figure> */}
 
         <ul>
-          <li><b>Puppeteer</b> Louise Mellor</li>
-          <li><b>Puppeteer</b> Adam Ryan</li>
-          <li><b>Puppeteer</b> Heidi Goldsmith</li>
+          <li><b>The Mermaid Ruth</b> Calkin</li>
+          <li><b>Annie the Acrobat</b> Daisy Porter</li>
+          <li><b>The Ringmaster</b> Samuel Dutton</li>
           <li><b>Associate Director</b> Oliver Hymans</li>
           <li><b>Stage Manager</b> Lucy Barter</li>
-          {/*<li><b>Stage Manager</b> Jake  Lawrence</li>*/}
+          <li><b>Re-lighter</b> Jake Lawrence</li>
           <li><b>Adapted by</b> Samantha Lane & Barb Jungr</li>
-          <li><b>Music and Lyrics by</b>  Barb Jungr</li>
+          <li><b>Music and Lyrics by</b> Barb Jungr</li>
           <li><b>Original production directed by</b>  Samantha Lane</li>
-          <li><b>Design by</b> Laura McEwen</li>
-          <li><b>Lighting Design by</b>  Sherry Coenen</li>
+          <li><b>Design by</b> Laura McEwen </li>
+          <li><b>Lighting Design by</b> Sherry Coenen</li>
           <li><b>Puppets by</b> Lyndie Wright</li>
-          <li><b>Additional Puppets by</b>  Jan Zalud</li>
+          <li><b>Additional Puppets by</b> Jan Zalud</li>
         </ul>                    
       </section>
-
-
-
-
     </main>
   )
 }
