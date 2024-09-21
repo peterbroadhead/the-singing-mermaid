@@ -62,25 +62,25 @@ const CastPage = () => {
 
         <figure>
           <img src={louise} alt="Louise Mellor Headshot"></img>
-          <div>
+           <div>
             <h3>Louise Mellor</h3>
-            <p>Daisy trained at East 15. This is her fourth project with Little Angel Theatre, having worked on Out of This World, The Wishing Tree and The Pixie & The Pudding. Recent other theatre credits include: Mulan Rouge (The Vaults); Alice in Wonderland (UK Puppetry Tour); and Albert’s Wondrous Voyage (Royal Albert Hall). Daisy is also a playwright and her debut puppetry show Mr. Toad will be touring the UK this year - so keep an eye out!</p>
+            <p>I trained at the Curious School of Puppetry and I studied Physical Theatre in Italy and Performing Arts at the University of Salford. I have performed in theatres, schools, libraries and forests all around the UK as well as abroad, including Alice in Wonderland, Peter Pan and Robin Hood in Italy and The Jungle Book in China.</p>
             <p>
               <b>What was your favourite story when you were young?</b>
               <br></br>
-              I grew up in Lyme Regis so my favourite book was Stone Girl, Bone Girl by Laurence Anholt. I used to walk on the beach and pretend I was Mary Anning looking for fossils - and sometimes I would be lucky and find one in the rocks!            
+              The BFG by Roald Dahl. I once dressed up as Sophie for World Book Day!
             </p>
             <p>
               <b>Can you do any circus tricks?</b>
               <br></br>
-              I can make a slice of carrot cake disappear…
+              I spent some time at a circus school in Turin where I learnt to walk the tight-wire and a couple of moves on the aerial silks. I’m not sure if I’d still be able to do them though, as I haven’t practised since. I can still do a head-stand though - does that count?
             </p>
             <p>
               <b>Tell us a joke!</b>
               <br></br>
-              What is a frog’s favourite game? Croak-quet!
+              What did the sea say to the mermaid? Nothing, it just waved.
             </p>
-          </div>           
+          </div>         
         </figure>
 
         {/*<figure>
