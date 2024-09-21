@@ -200,7 +200,7 @@ const CastPage = () => {
 
         <ul>
           <li><b>The Mermaid Ruth</b> Calkin</li>
-          <li><b>Annie the Acrobat</b> Daisy Porter</li>
+          <li><b>Annie the Acrobat</b> Louise Mellor</li>
           <li><b>The Ringmaster</b> Samuel Dutton</li>
           <li><b>Associate Director</b> Oliver Hymans</li>
           <li><b>Stage Manager</b> Lucy Barter</li>
