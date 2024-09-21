@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import Menu from "../components/menu.js"
 import samuel from "../images/samuel headshot.png"
 import ruth from "../images/ruth headshot.png"
-import daisy from "../images/daisy headshot.png"
+import louise from "../images/louise_mellor.png"
 
 const CastPage = () => {
   return (    
@@ -61,9 +61,9 @@ const CastPage = () => {
         </figure>
 
         <figure>
-          <img src={daisy} alt="Daisy Porter Headshot"></img>
+          <img src={louise} alt="Louise Mellor Headshot"></img>
           <div>
-            <h3>Daisy Porter</h3>
+            <h3>Louise Mellor</h3>
             <p>Daisy trained at East 15. This is her fourth project with Little Angel Theatre, having worked on Out of This World, The Wishing Tree and The Pixie & The Pudding. Recent other theatre credits include: Mulan Rouge (The Vaults); Alice in Wonderland (UK Puppetry Tour); and Albert’s Wondrous Voyage (Royal Albert Hall). Daisy is also a playwright and her debut puppetry show Mr. Toad will be touring the UK this year - so keep an eye out!</p>
             <p>
               <b>What was your favourite story when you were young?</b>
