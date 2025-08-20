@@ -14,7 +14,7 @@ const CastPage = () => {
       <h1>Meet the Singing Mermaid Cast</h1>
       <section>
       <figure>
-          <img src={sam} alt="Sam Baumal Headshot" style="margin:20px;"></img>
+          <img src={sam} alt="Sam Baumal Headshot" style={{margin:"20px"}}></img>
           <div>
             <h3>Sam Baumal</h3>
             <p>Sam trained in Musical Theatre at the Royal Academy of Music. Most recently Sam has appeared as a puppeteer operating a in the European tour of The Herds (The Walk Productions), Bordello: The Musical (Workshop), The Great Christmas Sleigh Ride (Harlow Playhouse) and the UK tours of Dear Zoo and Tales From Acorn Wood (NLP).</p>
@@ -37,7 +37,7 @@ const CastPage = () => {
         </figure>
 
         <figure>
-          <img src={katie} alt="Katie Haygarth Headshot" style="margin:20px;"></img>
+          <img src={katie} alt="Katie Haygarth Headshot" style={{margin:"20px"}}></img>
           <div>
             <h3>Katie Haygarth:</h3>
             <p>Katie graduated from LAMDA and quickly found a love of puppetry whilst working at Chessington World of Adventures. She then toured the UK in In The Night Garden Live before performing in the West End in The Very Hungry Caterpillar. She has toured the UK with various shows and even performed in an Opera in Valencia (as a puppet) as well as performing at The Mariofa Puppetry Festival in Madeira. Katie is a regular performer at The Little Angel Theatre, most recently in The Paper Dolls. She has also turned her hand to directing and is  director on The Very Hungry Caterpillar and Puppet Director for The Dinosaur That Pooped a Rockshow and Dinosaurs Live.</p>
