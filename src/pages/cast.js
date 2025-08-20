@@ -16,22 +16,22 @@ const CastPage = () => {
       <figure>
           <img src={samuel} alt="Samuel Dutton Headshot"></img>
           <div>
-            <h3>Samuel Dutton</h3>
-            <p>Theatre includes: The Singing Mermaid, The Pixie and the Pudding, Me..., The Further Adventures of The Owl and The Pussycat, Fantastic Mr Fox (Little Angel Theatre); Miss Julie, Black Comedy (Chichester Festival Theatre); Citizen Puppet (Blind Summit); Mojo (Theatre -Rites/New Victory Theater, New York); The Tempest (Dundee Rep); Hamlet, A Midsummer Night’s Dream, Love’s Labour’s Lost (RSC); Melody Loses Her Mojo (Liverpool Playhouse); Meat  (Bush Theatre);  Engi,  Tröll, Tomten  (Handbendi Brúðuleikhús); Peter Pan  (Royal Lyceum Edinburgh);  The Selfish Giant, Pinocchio  (Norwich Puppet Theatre).  Awards include: Best Puppetry - Polish Association of Theatre Artists, Fringe First – Edinburgh.</p>
+            <h3>Sam Baumal</h3>
+            <p>Sam trained in Musical Theatre at the Royal Academy of Music. Most recently Sam has appeared as a puppeteer operating a in the European tour of The Herds (The Walk Productions), Bordello: The Musical (Workshop), The Great Christmas Sleigh Ride (Harlow Playhouse) and the UK tours of Dear Zoo and Tales From Acorn Wood (NLP).</p>
             <p>
               <b>What was your favourite story when you were young?</b>
               <br></br>
-              The Little Train by Graham Greene – amazing illustrations by Edward Ardizzone.
+              I loved 'The Owl Who Was Afraid of the Dark' by Jill Tomlinson, not least because of the fabulously named main character: Plop the barn owl!
             </p>
             <p>
               <b>Can you do any circus tricks?</b>
               <br></br>
-              I thought about starting a flea circus but realised I’d have to start from scratch. 
+              I could do a very short handstand if you'd like?
             </p>
             <p>
               <b>Tell us a joke!</b>
               <br></br>
-              What do you get when you cross the ocean with the beach? I’m not that shore.
+              What do you call a Deer with no eyes? No Idea!
             </p>
           </div>           
         </figure>
@@ -39,23 +39,22 @@ const CastPage = () => {
         <figure>
           <img src={ruth} alt="Ruth Calkin Headshot"></img>
           <div>
-            <h3>Ruth Calkin</h3>
-            <p>               
-            Most recently Ruth has appeared in The Smartest Giant in Town (LAT/Fiery Light, West End); the award-nominated solo-performer show The Bed (Little Angel) and Twirlywoos (Live) (MEI). Other theatre includes: There May Be A Castle (LAT); Jina and the STEM Sisters (HMDT Music) and The Very Hungry Caterpillar (MEI). She has been a regular with Mark Mander in The Clementine Show (Crazy Coqs @ Brasserie Zédel) and past work includes productions with companies such as Oily Cart, Theatre-Rites, Kneehigh and the RSC. Ruth was the puppetry development lead for CBeebies’ Moon and Me.             </p>
+            <h3>Katie Haygarth:</h3>
+            <p>Katie graduated from LAMDA and quickly found a love of puppetry whilst working at Chessington World of Adventures. She then toured the UK in In The Night Garden Live before performing in the West End in The Very Hungry Caterpillar. She has toured the UK with various shows and even performed in an Opera in Valencia (as a puppet) as well as performing at The Mariofa Puppetry Festival in Madeira. Katie is a regular performer at The Little Angel Theatre, most recently in The Paper Dolls. She has also turned her hand to directing and is  director on The Very Hungry Caterpillar and Puppet Director for The Dinosaur That Pooped a Rockshow and Dinosaurs Live.</p>
             <p>          
               <b>What was your favourite story when you were young?</b>
               <br></br>
-              Everything by Roald Dahl but my top favourite was The Twits. 
+              Hairy McClary from Donaldsons Dairy. 
             </p>
             <p>
               <b>Can you do any circus tricks?</b>
               <br></br>            
-              Erm…no…BUT!  I would love to have a try at stilt walking?! Either that or the Wall of Death.
+              Yes! I can balloon model and do Diablo
             </p>
             <p>
               <b>Tell us a joke!</b>
               <br></br>
-              What do you call a fish with no body and no nose? Nobody knows! 
+              What do you get when you boil a clown? Laughing Stock. 😂
             </p>
           </div>                                                                                                                                                                                              
         </figure>
