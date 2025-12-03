@@ -297,7 +297,7 @@ video{
 }
 
 .shows li:first-child, .shows li:last-child{
-    flex: 100%;
+    /*flex: 100%;*/
 }
 
 .shows li h3{
