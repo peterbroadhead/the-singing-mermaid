@@ -25,12 +25,12 @@ const SongsPage = () => {
           </a>
         </li> 
         <li>
-          <a href={"https://redgravetheatre.com/event/2026/02/the-singing-mermaid/2275/"} target="_blank" rel="noreferrer">
+          <a href={"https://homemcr.org/whats-on/the-singing-mermaid-yyxl"} target="_blank" rel="noreferrer">
           <h3>Manchester</h3> Home<br></br><span>Sat 23 - Sun 24 May 2026</span>
           </a>
         </li> 
         <li>
-          <a href={"https://redgravetheatre.com/event/2026/02/the-singing-mermaid/2275/"} target="_blank" rel="noreferrer">
+          <a href={"/tour"} target="_blank" rel="noreferrer">
           <h3>Durham</h3> Gala Theatre<br></br><span>Wed 27 Thu - 28 May 2026</span>
           </a>
         </li> 
