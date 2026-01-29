@@ -20,7 +20,7 @@ const IndexPage = () => {
         <span>The Singing Mermaid</span>
         <img src={Mermaid} alt='The Singing Mermaid'></img>
       </h1>
-      <h2>The Guardian<br></br> <span>‘This is a fun warm-hearted adventure that will leave you humming its songs and wanting to hug a seagull’</span></h2>
+      <h2>The Guardian<br></br> <span>‘Raucous fun!  Bad puns, circus tricks and goggle-eyed jellyfish abound’</span></h2>
       <iframe width="800" height="400" src="https://www.youtube.com/embed/1EanZhXD47M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
       <p class={"big-quote"}>
         Did you ever go to Silversands
