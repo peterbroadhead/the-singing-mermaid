@@ -2,7 +2,7 @@ import * as React from "react"
 import "../components/index.css"
 import { Helmet } from 'react-helmet'
 import Menu from "../components/menu.js"
-import sam from "../images/Sam Baumal headshot.jpg"
+import chris from "../images/Chris Dobson Headshot.jpg"
 import louise from "../images/louise_mellor.png"
 import katie from "../images/Katie Haygarth headshot.jpg"
 
@@ -14,19 +14,19 @@ const CastPage = () => {
       <h1>Meet the Singing Mermaid Cast</h1>
       <section>
       <figure>
-          <img src={sam} alt="Sam Baumal Headshot" style={{margin:"20px"}}></img>
+          <img src={chris} alt="Chris Dobson Headshot" style={{margin:"20px"}}></img>
           <div>
-            <h3>Sam Baumal</h3>
-            <p>Sam trained in Musical Theatre at the Royal Academy of Music. Most recently Sam has appeared as a puppeteer operating a in the European tour of The Herds (The Walk Productions), Bordello: The Musical (Workshop), The Great Christmas Sleigh Ride (Harlow Playhouse) and the UK tours of Dear Zoo and Tales From Acorn Wood (NLP).</p>
+            <h3>Chris Dobson</h3>
+            <p>Christopher trained at the University of East Anglia. He loves pulling faces, playing with puppets and doing silly voices - conveniently he managed to find a job where he can do all three! Credits include ‘A Squash and a Squeeze’ (Little Angel Theatre), ‘Dragons and Mythical Beasts’ (Nicoll Entertainment), ‘Oi Frog and Friends Live’ (Kenny Wax Family Entertainment), ‘Peter Rabbit’s Garden Adventure’ (Histrionic Productions), the UK No.1 tour of &#39;In The Night Garden Live’, and ‘Bobbin’ (Tea Break Theatre).</p>
             <p>
               <b>What was your favourite story when you were young?</b>
               <br></br>
-              I loved 'The Owl Who Was Afraid of the Dark' by Jill Tomlinson, not least because of the fabulously named main character: Plop the barn owl!
+              The Wind in the Willows - a beautiful story of friendship, and also Mole was one of my first roles as a child!
             </p>
             <p>
               <b>Can you do any circus tricks?</b>
               <br></br>
-              I could do a very short handstand if you'd like?
+              I could probably pull a rabbit out of a hat - but I’d need a rabbit… and a hat.
             </p>
             <p>
               <b>Tell us a joke!</b>
