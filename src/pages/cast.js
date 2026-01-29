@@ -28,11 +28,6 @@ const CastPage = () => {
               <br></br>
               I could probably pull a rabbit out of a hat - but I’d need a rabbit… and a hat.
             </p>
-            <p>
-              <b>Tell us a joke!</b>
-              <br></br>
-              What do you call a Deer with no eyes? No Idea!
-            </p>
           </div>           
         </figure>
 
