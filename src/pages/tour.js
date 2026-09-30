@@ -15,20 +15,15 @@ const SongsPage = () => {
       <h3>If you’re coming to a Relaxed Performance or would like to know more about the story and the production, <a href={visualStory} target="_blank" rel="noreferrer"> click here.</a></h3>
       <ul className="shows">
         <li>
-          <a href={"https://homemcr.org/whats-on/the-singing-mermaid-yyxl"} target="_blank" rel="noreferrer">
-          <h3>Manchester</h3> Home<br></br><span>Sat 23 - Sun 24 May 2026</span>
+          <a href={"https://www.radlettcentre.co.uk/What-s-On/Children/Singing-Mermaid"} target="_blank" rel="noreferrer">
+          <h3>Radlett</h3> The Radlett Centre<br></br><span>Tues 27 -Wed 28 October 2026</span>
           </a>
         </li> 
         <li>
-          <a href={"/tour"} target="_blank" rel="noreferrer">
-          <h3>Durham</h3> Gala Theatre<br></br><span>Wed 27 Thu - 28 May 2026</span>
+          <a href={"https://www.mayflower.org.uk/whats-on/the-singing-mermaid-2026/"} target="_blank" rel="noreferrer">
+          <h3>Southampton</h3> Mayflower Studios<br></br><span>Fri 30 -Sat 31 October 2026</span>
           </a>
         </li> 
-        <li>
-          <a href={"https://thegulbenkian.co.uk/events/the-singing-mermaid-2/"} target="_blank" rel="noreferrer">
-          <h3>Canterbury</h3> Gulbenkian Theatre<br></br><span>Sat 30 - Sun 31 May</span>
-          </a>
-        </li>   
       </ul>
     </main>
   )
